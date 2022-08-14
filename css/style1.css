@@ -1,0 +1,33 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/a2/b1/22/a2b122258d244c663af7f1aedab402dd.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 175%;
+    color: white;
+}
+.scorediv{
+    width:50%;
+    margin:auto;
+    margin-top: 100px;
+    height:300px;
+    border:5px solid violet;
+    border-style: dashed;
+    text-align: center;
+}
+h1{
+    color: blue;
+}
+.btn {
+    background-color: #f44336; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background-color: blue;
+  }

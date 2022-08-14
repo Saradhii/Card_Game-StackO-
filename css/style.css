@@ -1,0 +1,108 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/a2/b1/22/a2b122258d244c663af7f1aedab402dd.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 128%;
+    color: white;
+}
+.gtitle{
+    border:1px solid violet;
+    width:90%;
+    margin:auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.gbody{
+    width:80%;
+    margin:auto;
+}
+.result{
+    border:2px solid violet;
+    width:40%;
+    max-width: 50%;
+    margin:auto;
+    padding:10px;
+    margin-top: 5px;
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    overflow:hidden;
+}
+.ans{
+    max-width: 48%;
+    overflow:hidden;
+}
+.gscore{
+    border:2px solid violet;
+    border-style:dashed;
+    width:40%;
+    margin:auto;
+    padding-left:10px;
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    grid-template-rows: 50px;
+}
+.gscore>div{
+    display: flex;
+    justify-content: space-around;
+}
+h3{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.gblocks{
+   width:40%;
+   height: 350px;
+   overflow: hidden;
+   padding: 1%;
+   padding-left: 10%;
+   margin:auto;
+   display:grid;
+   grid-template-columns: repeat(5,15%);
+   grid-template-rows: repeat(4,80px);
+   gap:2%;
+   margin-top: 5px;
+   background-image: url("https://media.istockphoto.com/vectors/retro-neon-background-with-80s-styled-laser-grid-and-stars-vector-id1143081971?k=20&m=1143081971&s=612x612&w=0&h=EQ3SLOhc-CC66q2ZiR_hMLrdzfx1BOq8mNGxunWLTZs=");
+}
+.block{
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid black;
+    border-style: dashed;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.block p {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0%;
+    text-align: center;
+    padding-top: 20px;
+}
+.block h4{
+    margin-top: 10%;
+    text-align: right;
+}
+.block:hover {
+   background-color: gold;
+}
+.scorediv{
+    width:90%;
+    margin:auto;
+    margin-top: 100px;
+    height:300px;
+    border:2px solid violet;
+    border-style: dashed;
+}
+button{
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: gold;
+}
